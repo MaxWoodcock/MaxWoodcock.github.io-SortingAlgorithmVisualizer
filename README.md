@@ -10,4 +10,4 @@ Sorting algorithms supported:
 * Quick Sort 
 * Merge Sort 
 
-To use the website, click [here](https://maxwoodcock.github.io/) 
+To use the website, click [here](MaxWoodcock.github.io-SortingAlgorithmVisualizer/) 
