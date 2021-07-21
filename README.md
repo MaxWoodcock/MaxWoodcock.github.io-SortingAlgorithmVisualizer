@@ -1,5 +1,4 @@
-Site visualize 6 basic sorting algorithms    
-Access website [here](https://maxwoodcock.github.io/)  
+# Sorting Algorithm Visualizer 
 Sorting algorithms supported:
 * Bubble Sort
 * Insertion Sort
