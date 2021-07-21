@@ -1,4 +1,5 @@
 # Sorting Algorithm Visualizer 
+## Made with JavaScript, HTML, and CSS
 
 Sorting algorithms supported: 
 * Bubble Sort 
