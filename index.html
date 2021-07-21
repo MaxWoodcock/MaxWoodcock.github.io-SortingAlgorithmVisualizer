@@ -1,1 +1,42 @@
-<p>Test</p>
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset='UTF-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE-edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <link rel='stylesheet' href='style.css'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <script type='text/javascript' src='colorScreen.js' defer></script>
+    <script type='text/javascript' src='bubblesort.js'></script>
+    <script type='text/javascript' src='insertionsort.js'></script>
+    <script type='text/javascript' src='selectionsort.js'></script>
+    <script type='text/javascript' src='cocktailsort.js'></script>
+    <script type='text/javascript' src='quicksort.js'></script>
+    <script type='text/javascript' src='mergesort.js'></script>
+    <title> Sorting Visualizer</title>
+</head>
+<body>
+    <div class='main-container'>
+        <div class='header-bar'>
+            <div class='array-controls'>
+                <button type='button' class='generate-new-array-button'>Create New Array</button>
+                <output>Speed</output>
+                <input type='range' min='1' max='600' class='speed-slider'>
+                <output class='size-text'>Size</output>
+                <input type='range' min='8' max='300' class='size-slider'>
+            </div>
+            <div class='sort-selection'>
+                <div class='test'><button type='button' class='bubble-sort-button'>Bubble Sort</button></div>
+                <div class='test'><button type='button' class='insertion-sort-button'>Insertion Sort</button></div>
+                <div class='test'><button type='button' class='selection-sort-button'>Selection Sort</button></div>
+                <div class='test'><button type='button' class='cocktail-sort-button'>Cocktail Sort</button></div>
+                <div class='test'><button type='button' class='quick-sort-button'>Quick Sort</button></div>
+                <div class='test'><button type='button' class='merge-sort-button'>Merge Sort</button></div>
+            </div>
+        <div class='sorting-visualizer-screen'></div>
+    </div>
+    <script type='text/javascript' src='loadPageAndButtons.js'></script>
+</body>
+</html>
