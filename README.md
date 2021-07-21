@@ -6,3 +6,4 @@ Sorting algorithms supported:
 * Cocktail Sort
 * Quick Sort
 * Merge Sort
+To use the website, click [here](https://maxwoodcock.github.io/) 
