@@ -5,5 +5,5 @@ Sorting algorithms supported:
 * Selection Sort
 * Cocktail Sort
 * Quick Sort
-* Merge Sort
+* Merge Sort  
 To use the website, click [here](https://maxwoodcock.github.io/) 
