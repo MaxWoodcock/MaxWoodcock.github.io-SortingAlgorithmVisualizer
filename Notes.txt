@@ -1,0 +1,21 @@
+Improvements i'd make in hindsight
+
+Again i've gone and used globals everywhere...
+
+A nice way to clean up all the rgb(1,2,3) would be to assign it to constants
+SORTED_BAR = 'rgb(172, 251, 146)' somewhere top of file (probably colorScreen)
+colorIndividualBar(SORTED_BAR) <-- Much easier to read and understand what the color represents too
+
+Once again it looks like I have just learned what async and await does (but clearly not understood what it actually does) since i've gone and used it everywhere
+
+A lot of comments i've written are completely redundant.
+E.g.,  if(randomArray[j] > randomArray[j+1]) { //If jth element is > the element ahead of it
+	Duh... I do not need a comment to cluttter up the screen to tell me what this is checking...
+E.g., await updateBars(); //Update screen to reflect change in randomArray 
+	Duh...
+E.g., await sleep(sleepTime); //Sleep depending on slider position
+	Duh...
+E.g., await swap(jj, jj+1); //Swap elements in place
+	Duh...
+
+Inconsistent commenting in the inputs and outputs of functions... Sometimes I did it, sometimes I didn't
